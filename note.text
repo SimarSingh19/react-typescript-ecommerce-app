@@ -1,0 +1,14 @@
+config = {
+  baseURL: "https://dummyjson.com",
+  url: "/auth/me",
+  method: "get",
+  headers: {}
+}
+
+
+
+createAsyncThunk<string, LoginCredentials, { rejectValue: string }>
+createAsyncThunk<string, LoginCredentials, { rejectValue: string }>
+ReturnType    = string
+ArgumentType  = LoginCredentials
+rejectValue   = string
